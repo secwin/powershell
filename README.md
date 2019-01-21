@@ -8,5 +8,7 @@ This repo contains powershell scripts for people who work in any where related w
 
 1) Get-ExecutionPolicy
 2) Set-ExewcutionPolicy remoteSigned
+
 <b>To Undo</b>
+
 1) Set-ExecutionPolicy restricted
