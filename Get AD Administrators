@@ -1,1 +1,1 @@
-Get-ADGroupMember -Server <t>domain</t> -Identity "Domain Admins"
+Get-ADGroupMember -Server <t>domain</t> -Identity "Administrators"
