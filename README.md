@@ -6,8 +6,7 @@ This repo contains powershell scripts for people who work in any where related w
 
 ! If you have a problem about Execution Policy, please type below codes in your powershell.
 
-1)>Get-ExecutionPolicy
-2)>Set-ExewcutionPolicy remoteSigned
-Done.
-To Undo
-1)>Set-ExecutionPolicy restricted
+1) Get-ExecutionPolicy
+2) Set-ExewcutionPolicy remoteSigned
+<b>To Undo<b>
+1) Set-ExecutionPolicy restricted
