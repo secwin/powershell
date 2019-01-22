@@ -1,6 +1,6 @@
-#$listofIPs = Get-Content c:\user\X\Desktop\IPlist.txt
+#$listofIPs = Get-Content IPlists.txt
 
-$listofIPs = "<b>IP1</b>","<b>IP2</b>","<b>IP3</b>"
+$listofIPs = "IP1","IP2","IP3"
 $ResultList = @()
 
 foreach ($ip in $listofIPs){
@@ -12,16 +12,16 @@ foreach ($ip in $listofIPs){
 	$Resoved = [string]$Result.HostName
 If ($Result){$Resultlist += "$IP - $Resoved" }
 else{$Resultlist += "$IP - Not fount hostname"}}
-#$resultlist | Out-File c:\user\X\Desktop\output.txt
+#$resultlist | Out-File output.txt
 $ResultList
 
 #Elimizdeki IP adreslerinin isimlerini çözmek için kullanılabilecek script
 #With this script you can resolve hostname from list or group of IP addresses
-#You can;
-#1) Add your IP addresses to "$listofIPs = "<b>IP1</b>","<b>IP2</b>","<b>IP3</b>""
+#!Usage:
+#1) Type your IP addresses insted of IP1,IP2,IP3..
 #or
-#1) Change path of IP list path from "$listofIPs = Get-Content <b>c:\user\X\Desktop\IPlist.txt</b>" code
-#2) Change path of result path from "$resultlist | Out-File <b>c:\user\X\Desktop\output.txt</b>" code
+#1) Create IPlists.txt in same location with powershell script and import your IP addresses.
+
 
 
 
