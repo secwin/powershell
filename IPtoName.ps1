@@ -15,9 +15,13 @@ else{$Resultlist += "$IP - Not fount hostname"}}
 #$resultlist | Out-File c:\user\X\Desktop\output.txt
 $ResultList
 
+#Elimizdeki IP adreslerinin isimlerini çözmek için kullanılabilecek script
 #With this script you can resolve hostname from list or group of IP addresses
 #You can;
 #1) Add your IP addresses to "$listofIPs = "<b>IP1</b>","<b>IP2</b>","<b>IP3</b>""
 #or
 #1) Change path of IP list path from "$listofIPs = Get-Content <b>c:\user\X\Desktop\IPlist.txt</b>" code
 #2) Change path of result path from "$resultlist | Out-File <b>c:\user\X\Desktop\output.txt</b>" code
+
+
+
