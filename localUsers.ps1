@@ -16,6 +16,6 @@ get-content "IPlists.txt" | foreach-object {
      Else {Write-Warning "'$IP' is unreachable"} 
      }|Export-Csv -NoTypeInformation localuserlists.csv 
  
- #Uzak bilgisayrdaki lokal kullanıcıları isim, durum, parola durumu, son giriş zamanı, grubu ve açıklaması ile getiren script.
+ #Uzak bilgisayardaki lokal kullanıcıları isim, durum, parola durumu, son giriş zamanı, grubu ve açıklaması ile getiren script.
  #In order to get users from remote machine with user name, stuation, password stuation, last login time, group and description. 
  #!Usage:Create IPlists.txt in same location with powershell script and import your IP adresses.
